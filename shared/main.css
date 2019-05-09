@@ -1,0 +1,112 @@
+/* CSS FILE */
+.clearfix{
+    clear:both;
+}
+body{
+    font-family: Roboto;
+    font-size:14px;
+}
+.container{
+    max-width:960px;
+    width:100%;
+    margin:0 auto;
+}
+.header-container{
+    background: #3a7cc8; /* Old browsers */
+    background: -moz-linear-gradient(left, #3a7cc8 0%, #4795d3 50%, #4795d3 54%, #3a7cc8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3a7cc8 0%,#4795d3 50%,#4795d3 54%,#3a7cc8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3a7cc8 0%,#4795d3 50%,#4795d3 54%,#3a7cc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a7cc8', endColorstr='#3a7cc8',GradientType=1 ); /* IE6-9 */
+    height:200px;
+}
+.sprite-img{
+    background-image: url("images/sprite-img.png");
+    display:inline-block;
+    background-position: 0 0;
+}
+.sprite-img.fb{
+    background-position: -7px -6px;
+    width: 33px;
+    height: 33px;
+}
+.sprite-img.tw{
+    background-position: -49px -6px;
+    width: 33px;
+    height: 33px;
+}
+.sprite-img.in{
+    background-position: -92px -6px;
+    width: 33px;
+    height: 33px;
+}
+.sprite-img.search{
+    background-position: -133px -7px;
+    width: 29px;
+    height: 29px;
+}
+.sprite-img.logo1{
+    background-position: -7px -143px;
+    width: 166px;
+    height: 166px;
+}
+.sprite-img.title{
+    background-position: -6px -48px;
+    width: 600px;
+    height: 45px;
+}
+.sprite-img.sub-title{
+    background-position: -7px -105px;
+    width: 200px;
+    height: 24px;
+}
+.header-container .right{
+    float:right;
+}
+.header-container .right .social,.header-container .right .search{
+    display:inline-block;
+    vertical-align: top;
+}
+.header-container .right .social{
+    padding:5px 0 0;
+}
+.header-container .right .social a{
+    margin-right:5px;
+}
+.header-container .right .search{
+    position:relative;
+}
+.header-container .right .search .sprite-img.search{
+    position: absolute;
+    top:8px;
+    right:10px;
+}
+.header-container .right .search input{
+    background-color: #fff;
+    padding:12px;
+    -webkit-border:0;
+    -moz-border:0;
+    -o-border:0;
+    border:0;
+    -webkit-border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    -o-border-radius:0 0 5px 5px;
+    border-radius:0 0 5px 5px;
+}
+.header-container .right .search input::placeholder{
+    color:#555;
+}
+.logo{
+    float:left;
+    width:166px;
+}
+.bottom{
+    margin-top:-45px;
+}
+.name {
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+}
+.register {
+    float: right;
+}
