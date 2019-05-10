@@ -8,11 +8,11 @@
   <meta name="description" content="Edunet Development High School">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" href="shared/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="shared/nivo-slider.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="shared/main.css">
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script src="shared/js/scripts.js"></script>
 </head>
 
 <body>
@@ -20,40 +20,6 @@
   <div id="header">
     <div class="inside">
       <!-- Do Not Change Anything Here -->
-      <div class="header-container">
-        <div class="header-bg">
-          <div class="container">
-            <div class="right">
-              <div class="social">
-                <a href="#" target="_blank"><span class="sprite-img fb"></span></a>
-                <a href="#" target="_blank"><span class="sprite-img tw"></span></a>
-                <a href="#" target="_blank"><span class="sprite-img in"></span></a>
-              </div>
-              <div class="search">
-                <input type="search" placeholder="Search" />
-                <span class="sprite-img search"></span>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="bottom">
-              <div class="logo">
-                <a href="index.html">
-                  <span class="sprite-img logo1"></span>
-                </a>
-              </div>
-              <div class="name">
-                <h4 class="group-name">BATON ROUGE</h4>
-                <h1><span class="sprite-img title"></span></h1>
-                <h3><span class="sprite-img sub-title"></span></h3>
-              </div>
-              <div class="register">
-                <a href="#">Register<br />Here!</a>
-              </div>
-            <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- Header End -->
@@ -61,7 +27,105 @@
   <!-- Content Start -->
   <div id="content">
     <div class="inside">
-
+      <div class="container">
+        <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+            <img src="shared/images/banner.jpg" data-thumb="shared/images/banner.jpg" alt="" />
+            <img src="shared/images/banner.jpg" data-thumb="shared/images/banner.jpg" alt="" />
+            <img src="shared/images/banner.jpg" data-thumb="shared/images/banner.jpg" alt="" />
+            <img src="shared/images/banner.jpg" data-thumb="shared/images/banner.jpg" alt="" />
+          </div>
+          <div class="abs">
+            "Lorem Ipsum is simply dummy text used by designers." - Lorem Ipsum
+          </div>
+        </div>
+      </div>
+      <div class="container section">
+        <div class="p-15">
+          <div class="events-container">
+            <div class="card">
+              <div class="card-heading">
+                <h4><span class="sprite-img event"></span> <span>Events</span></h4>
+              </div>
+              <div class="card-body">
+                <div class="group">
+                  <h6>Community Field Day</h6>
+                  <p>Date: 5/12/2019</p>
+                  <p>Time: 11:00 AM - 4:00 PM</p>
+                  <p>Location: McArthur Field</p>
+                </div>
+                <div class="group">
+                  <h6>No School: Planning Day</h6>
+                  <p>Date: 5/12/2014</p>
+                </div>
+                <div class="group">
+                  <h6>School Open House</h6>
+                  <p>Date: 5/12/2014</p>
+                  <p>Time: 11:00 AM</p>
+                  <p>Location: McArthur</p>
+                </div>
+                <div class="group">
+                  <h6>UP Talent Show</h6>
+                  <p>Date: 5/12/2014</p>
+                  <p>Time: 11:00 AM - 4:00 PM</p>
+                  <p>Location: Rowley Theater</p>
+                </div>
+                <a href="#" class="show-more">Show Calendar <span class="sprite-img arrow"></span></a>
+              </div>
+            </div>
+            <div class="show-all"><a href="#">Show All</a></div>
+          </div>
+          <div class="news-container">
+            <div class="card">
+              <div class="card-heading">
+                <h4><span class="sprite-img news"></span> News & Announcements</h4>
+              </div>
+              <div class="card-body">
+                <div class="group b-1">
+                  <h6>Community Field Day</h6>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries. It has survived not only five centuries</p>
+                </div>
+                <div class="group b-1">
+                  <h6>Kicks for Kids</h6>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only.</p>
+                </div>
+                <div class="group b-1">
+                  <div class="float-img"><img src="shared/images/img.jpg" alt="Image" /></div>
+                  <h6>Parent Surveys</h6>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="group">
+                  <h6>Now Hiring</h6>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply
+                    dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+            </div>
+            <div class="show-all"><a href="#">Show All</a></div>
+          </div>
+          <div class="action-container">
+            <div class="color-cards sprite-img bg1">
+              <h4>Enroll</h4>
+              <p>Now enrolling kindergarten students</p>
+              <a href=""><span class="sprite-img"></span></a>
+            </div>
+            <div class="color-cards sprite-img bg2">
+              <h4>Enroll</h4>
+              <p>Now enrolling kindergarten students</p>
+              <a href=""><span class="sprite-img"></span></a>
+            </div>
+            <div class="color-cards sprite-img bg3">
+              <h4>Enroll</h4>
+              <p>Now enrolling kindergarten students</p>
+              <a href=""><span class="sprite-img"></span></a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Content End -->
@@ -73,7 +137,14 @@
     </div>
   </div>
   <!-- Footer End -->
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="shared/js/jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
+  <script src="shared/js/scripts.js"></script>
 </body>
 
 </html>
