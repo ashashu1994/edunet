@@ -110,3 +110,63 @@ body{
 .register {
     float: right;
 }
+
+
+
+/* section */
+.p-15{
+    padding:30px 15px;
+}
+.events-container,.news-container,.action-container{
+    float:left;
+    padding:15px;
+}
+
+
+/* footer */
+.footer-container{
+    background-color: #3a7ec7;
+}
+.footer-name{
+    float:left;
+    width:40%;
+}
+.footer-text{
+    float:right;
+    width:60%;
+    text-align:right;
+    margin:40px 0;
+}
+.footer-text h3{
+    font-size: 28px;
+    font-weight: 100;
+    color:#fff;
+    margin:0 0 15px;
+}
+.footer-text p{
+    color:#fff;
+    opacity: 0.7;
+    margin:0;
+}
+.footer-text p span{
+    margin-right:20px;
+}
+
+.copyright{
+    background-color: #2d4665;
+    border-bottom:3px solid #e2b22c;
+}
+.copyright .footer-social{
+    float:right;
+}
+.copyright .footer-social a{
+    vertical-align: middle;
+    display: inline-block;
+}
+.copy-text p{
+    text-align: center;
+    margin:0;
+    font-size:10px;
+    color:#7f90a2;
+    padding-top:5px;
+}
